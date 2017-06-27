@@ -1,5 +1,15 @@
 $("document").ready(function(){
-    
+    //start spinner section
+
+    $(window).load(function(){
+
+        $(".spinner").hide();
+        $(".load").show();
+    });
+
+
+
+
     // include socket.io lib
     var socket   = io.connect();
 
