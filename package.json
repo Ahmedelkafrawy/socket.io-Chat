@@ -2,10 +2,24 @@
   "name": "chat",
   "version": "0.0.1",
   "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "4.15.3",
     "nodemon": "^1.11.0",
     "socket.io": "2.0.3"
-  }
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/ahmed-elkafrawy.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
