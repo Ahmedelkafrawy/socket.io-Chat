@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8" />
+       <title>Chat Aplication</title>
+       <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+      <center>
+          <div class="loginuser">
+            <p class="entername">Enter your username:</p>
+            <form class="loginform">            
+              <input type="text" name="username" class="username" placeholder="Enter your name">
+              <input type="submit" name="usersubmit" class="usersubmit" value="Enter Chat">
+            </form>
+            <p class="ErrorLogin"></p>
+          </div>
+      </center>
+      <center>
+          <div class="all">
+            <div class="users"></div>
+            <div class="chatcontainer">
+                <p class="welcome">Welcome to chat application</p>
+                <div id="chat" class="chat"></div>
+                <div class="formcontainer">
+                  <form id="sendform">
+                    <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                    <button type="submit" name="send" id="submit">Send</button>
+                  </form>
+                </div>
+            </div>
+         </div>
+      </center>
+
+      <!-- adding my script and jquery lib -->
+      <script src="/js/jquery-1.11.1.min.js"></script>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="/js/main.js"></script>
+    </body>
+</html>

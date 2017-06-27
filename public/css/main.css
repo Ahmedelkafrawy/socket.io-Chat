@@ -1,0 +1,105 @@
+
+/* start chat section */
+.all{
+
+    display: none;
+}
+.welcome{
+
+    font-size: 30px;
+}
+.mess{
+
+    color: black;
+    font-size: 19px;
+}
+.name{
+
+    
+    color:#4AE8C4;
+    font-size: 19px;
+    
+}
+.chat{
+
+    height: 454px;
+    width:400px;
+    
+    margin-top: 25px;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    padding: 8px;
+    text-align: left;
+
+
+    
+}
+
+.formcontainer{
+
+    position: relative;
+
+}
+.formcontainer button{
+
+    position: absolute;
+    float: right;
+    left: 820px;
+    width: 62px;
+    top: 22px;
+    height: 32px;
+    border-radius: 7px;
+    color: white;
+    background-color: blue;
+    
+}
+.formcontainer textarea{
+
+    width: 338px;
+    float: left;
+    position: absolute;
+    left: 467px;
+}
+.users{
+
+    float: right;
+    margin-right: 31px;
+    position: absolute;
+    left: 1129px;
+    
+    font-size: 20px;
+    width: 200px;
+    border-left: 2px dashed;
+    height: 600px;
+}
+/* end chat section */
+
+/* start user login section */
+
+.entername{
+    color: green;
+    font-size: 30px;
+}
+.ErrorLogin{
+
+    color: red;
+    
+}
+.username{
+
+    width: 277px;
+    height: 23px;
+
+}
+.usersubmit{
+
+    width: 87px;
+    height: 30px;
+}
+.loginuser{
+
+    margin-top: 291px
+}
+/* end user login section */
+
+
