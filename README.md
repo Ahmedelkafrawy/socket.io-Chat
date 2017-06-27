@@ -1,2 +1,5 @@
 # socket.io-Chat
-real time chat application using node.js and socket.io
+real time chat application based on nodejs and socketio 
+using Express Framework 
+
+
