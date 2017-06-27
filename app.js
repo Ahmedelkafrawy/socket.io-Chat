@@ -4,7 +4,7 @@ var path = require("path");
 
 
 var server = require("http").createServer(app);
-
+app.set('port', (process.env.PORT || 3000));
 // set login users array
 
 var users = [];
@@ -23,7 +23,11 @@ app.set('view engine', 'ejs');
 
 // listen to the server port 3000
 
-server.listen(3000);
+//server.listen(3000);
+
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
 
 app.use('/',index);
 
